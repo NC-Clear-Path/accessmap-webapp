@@ -133,7 +133,7 @@ class OmniCard extends React.PureComponent {
             aria-hidden
           >
             <AccessMapLogo />
-            <h6 className='accessmaplogo-region'>Seattle</h6>
+            <h6 className='accessmaplogo-region'>North Carolina</h6>
           </div>
         </Toolbar>
       );

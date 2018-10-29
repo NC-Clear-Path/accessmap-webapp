@@ -1,15 +1,14 @@
 const raleigh = {
   bounds: [
-    [-78.653634, 35.769932],
-    [-78.619623, 35.783250],
+    [-79.738770,35.349856],
+    [-77.562103,36.202174],
   ],
-  lon: -78.636628,
-  lat: 35.776591,
+  center: [-78.638978,35.780534],
 };
 
 export default {
   bounds: raleigh.bounds,
-  lon: raleigh.lon,
-  lat: raleigh.lat,
+  lon: raleigh.center[0],
+  lat: raleigh.center[1],
   zoom: 15,
 };
