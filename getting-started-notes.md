@@ -12,9 +12,12 @@
 ### React.Fragment
 ## Redux
 ## Toast
+## What are all of these map layers and where are they coming from
+
 
 
 # Forking TODO
+* Change search to match whatever location is showing (not Seattle area)
 * Lock down mapbox api token (just hard limit?)
 * Deploy demo somewhere-- s3 bucket?
 * Figure out how to get user location
