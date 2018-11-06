@@ -18,7 +18,11 @@
 
 
 # Forking TODO
-* When a user presses the "toggle to my location" button, move map to their location 
+* Change toggle geolocation to just behave like google maps
+* Automatically get a user's geolocation when they navigate here
+* Add a call to action - "don't see it?  go here..."
+* Make location search work
+
 * Run API locally
 * Lock down mapbox api token (just hard limit?)
 * Deploy demo somewhere-- s3 bucket?
