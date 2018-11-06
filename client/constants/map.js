@@ -7,7 +7,6 @@ const raleigh = {
 };
 
 export default {
-  bounds: raleigh.bounds,
   lon: raleigh.center[0],
   lat: raleigh.center[1],
   zoom: 15,

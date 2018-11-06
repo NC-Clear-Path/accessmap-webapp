@@ -668,6 +668,8 @@ export const toggleGeolocation = () => (dispatch, getState) => {
             type: RECEIVE_GEOLOCATION,
             payload: {
               coordinates,
+              lon: coordinates[0],
+              lat: coordinates[1],
               accuracy: position.coords.accuracy,
             },
           });

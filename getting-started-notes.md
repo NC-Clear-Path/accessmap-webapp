@@ -13,11 +13,13 @@
 ## Redux
 ## Toast
 ## What are all of these map layers and where are they coming from
-
+## Rakam
+* Should we connect back to the main project's analytics?  Do they want that?
 
 
 # Forking TODO
-* Change search to match whatever location is showing (not Seattle area)
+* When a user presses the "toggle to my location" button, move map to their location 
+* Run API locally
 * Lock down mapbox api token (just hard limit?)
 * Deploy demo somewhere-- s3 bucket?
 * Figure out how to get user location

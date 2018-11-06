@@ -102,7 +102,6 @@ class Map extends Component {
         zoom={[zoom]}
         bearing={[0]}
         pitch={[0]}
-        maxBounds={mapConstants.bounds}
         /* eslint-disable react/style-prop-object */
         style='mapbox://styles/accessmap/cjglbmftk00202tqmpidtfxk3'
         /* eslint-enable react/style-prop-object */

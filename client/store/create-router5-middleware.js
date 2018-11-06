@@ -12,6 +12,7 @@ import {
   LOAD_MAP,
   MAP_MOVE,
   PLAN_TRIP,
+  RECEIVE_GEOLOCATION,
   RECEIVE_ROUTE,
   SET_DESTINATION,
   SET_ORIGIN,
@@ -45,6 +46,12 @@ const createRouter5Middleware = (router) => {
       case CLOSE_DIRECTIONS: {
         // We need to return to the previous state. I guess the back button will do it?
         history.go(-1);
+        break;
+      }
+      case RECEIVE_GEOLOCATION: {
+        const { name, params } = router.getState();
+        const { lon, lat } = action.payload;
+        router.navigate(name, { ...params, lon, lat });
         break;
       }
       case RECEIVE_ROUTE: {

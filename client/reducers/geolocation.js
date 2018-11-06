@@ -12,6 +12,8 @@ export default (state = defaults, action) => {
       return {
         coordinates: action.payload.coordinates,
         accuracy: action.payload.accuracy,
+        lon: action.payload.lon,
+        lat: action.payload.lat,
         status: 'Ok',
       };
     case CLEAR_GEOLOCATION:
